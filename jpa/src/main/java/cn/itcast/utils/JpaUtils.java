@@ -11,6 +11,7 @@ public class JpaUtils {
     static {
         // 注意：该方法参数必须和persistence.xml中persistence-unit标签name属性取值一致
         em = Persistence.createEntityManagerFactory("myJpa");
+        // sadada
 
     }
 
